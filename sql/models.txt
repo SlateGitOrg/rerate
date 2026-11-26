@@ -1,0 +1,27 @@
+# Executed in this order, each as CREATE OR REPLACE TABLE <file stem> AS <select>.
+staging/stg_audit_params.sql
+staging/stg_carriers.sql
+staging/stg_consignees.sql
+staging/stg_shipments.sql
+staging/stg_invoices.sql
+staging/stg_invoice_lines.sql
+staging/stg_contract_versions.sql
+staging/stg_ltl_tariff.sql
+staging/stg_tl_lane_rates.sql
+staging/stg_diesel_index.sql
+staging/stg_fsc_tables.sql
+staging/stg_accessorial_schedule.sql
+staging/stg_approvals.sql
+staging/stg_reweigh_certs.sql
+intermediate/int_invoice_shipment.sql
+intermediate/int_contract_version.sql
+intermediate/int_fuel_week.sql
+intermediate/int_weight_check.sql
+intermediate/int_ltl_rated.sql
+intermediate/int_tl_rated.sql
+intermediate/int_accessorial_expected.sql
+intermediate/int_duplicates.sql
+marts/fct_invoice_audit.sql
+marts/fct_findings.sql
+marts/rpt_recovery_by_carrier.sql
+marts/fct_lane_benchmark.sql
